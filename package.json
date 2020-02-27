@@ -1,5 +1,5 @@
 {
-  "name": "@testing-library/user-event",
+  "name": "@pre-bundled/testing-library-user-event",
   "version": "10.0.0",
   "description": "Simulate user events for react-testing-library",
   "keywords": [
@@ -56,15 +56,11 @@
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
-  "peerDependencies": {
-    "@testing-library/dom": ">=5"
-  },
+  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {
-    "@testing-library/dom": "^6.12.2"
-  }
+  "dependencies": {}
 }
