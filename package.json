@@ -63,5 +63,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@testing-library/dom": "^7.2.1"
   }
 }

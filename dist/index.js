@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _dom = require("@testing-library/dom");
+var _dom = require("../pre-bundled/node_modules/@testing-library/dom");
 
 function wait(time) {
   return new Promise(function (resolve) {
