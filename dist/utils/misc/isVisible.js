@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.isVisible = isVisible;
 
-var _helpers = require("@testing-library/dom/dist/helpers");
+var _helpers = require("../../../pre-bundled/node_modules/@testing-library/dom/dist/helpers");
 
 function isVisible(element) {
   const window = (0, _helpers.getWindowFromNode)(element);

@@ -37,7 +37,8 @@
     "typecheck": "kcd-scripts typecheck"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.5"
+    "@babel/runtime": "^7.12.5",
+    "@testing-library/dom": "^7.28.1"
   },
   "devDependencies": {
     "@testing-library/dom": "^7.28.1",

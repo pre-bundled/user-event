@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.keyboardImplementation = keyboardImplementation;
 exports.releaseAllKeys = releaseAllKeys;
 
-var _dom = require("@testing-library/dom");
+var _dom = require("../../pre-bundled/node_modules/@testing-library/dom");
 
 var _utils = require("../utils");
 

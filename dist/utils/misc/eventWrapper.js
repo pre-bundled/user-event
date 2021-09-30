@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.eventWrapper = eventWrapper;
 
-var _dom = require("@testing-library/dom");
+var _dom = require("../../../pre-bundled/node_modules/@testing-library/dom");
 
 function eventWrapper(cb) {
   let result;
