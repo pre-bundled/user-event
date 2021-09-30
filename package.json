@@ -1,5 +1,5 @@
 {
-  "name": "@testing-library/user-event",
+  "name": "@pre-bundled/testing-library-user-event",
   "version": "13.2.1",
   "description": "Fire events the same way the user does",
   "main": "dist/index.js",
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/testing-library/user-event#readme",
   "files": [
-    "dist"
+    "dist",
+    "pre-bundled"
   ],
   "scripts": {
     "build": "kcd-scripts build",
@@ -36,10 +37,7 @@
     "validate": "kcd-scripts validate",
     "typecheck": "kcd-scripts typecheck"
   },
-  "dependencies": {
-    "@babel/runtime": "^7.12.5",
-    "@testing-library/dom": "^7.28.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@testing-library/dom": "^7.28.1",
     "@testing-library/jest-dom": "^5.11.6",
@@ -55,9 +53,7 @@
     "react-dom": "^17.0.2",
     "typescript": "^4.1.2"
   },
-  "peerDependencies": {
-    "@testing-library/dom": ">=7.21.4"
-  },
+  "peerDependencies": {},
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js",
     "rules": {
